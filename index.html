@@ -4,43 +4,6 @@
   <title>Free 1-page tools</title>
 
   <style>
-
-    .tool-btn {
-  font-weight: 500;
-}
-
-.tool-btn {
-  display: block;
-  padding: 14px;
-  margin-bottom: 12px;
-  background: #111827;
-  border: 1px solid #374151;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #e5e7eb;
-  font-size: 14px;
-  transition: 0.2s;
-}
-
-.tool-btn:hover {
-  background: #1f2937;
-  transform: translateY(-2px);
-}
-
-.icon {
-  font-size: 22px;
-}
-
-.text strong {
-  display: block;
-  font-size: 15px;
-}
-
-.desc {
-  font-size: 13px;
-  opacity: 0.7;
-}
-
     body {
       margin: 0;
       font-family: system-ui, -apple-system, sans-serif;
@@ -68,12 +31,6 @@
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 12px;
-
-      <a class="card" href="/delete-social.html">
-  <div class="title">Social Account Removal Guide</div>
-  <div class="desc">Step-by-step instructions to delete major social media accounts</div>
-</a>
-
     }
 
     .card {
@@ -90,8 +47,6 @@
       transform: translateY(-2px);
       background: #1f2937;
     }
-
-    
 
     .title {
       font-weight: 600;
@@ -112,37 +67,31 @@
   <h1>Free 1-page tools</h1>
   <p>Simple privacy + utility tools that run instantly in your browser.</p>
 
-<a href="/ip.html" class="tool-btn">
-  <span class="icon">🌐</span>
-  <div class="text">
-    <strong>IP Privacy Tool</strong>
-    <div class="desc">Instantly See the information that your IP address reveals about you</div>
-  </div>
-</a>
+  <div class="grid">
 
-<a href="/delete-social.html" class="tool-btn">
-  <span class="icon">📱</span>
-  <div class="text">
-    <strong>Social Media Removal Guide</strong>
-    <div class="desc">Step-by-step instructions to delete Facebook/X/Instagram/Tiktok accounts</div>
-  </div>
-</a>
+    <a class="card" href="https://ip-app-rust.vercel.app/">
+      <div class="title">What does my IP reveal</div>
+      <div class="desc">See what websites can detect about your connection</div>
+    </a>
 
-<a href="/weight.html" class="tool-btn">
-  <span class="icon">⚖️</span>
-  <div class="text">
-    <strong>Weight Loss Plan Generator</strong>
-    <div class="desc">Suggests a personalised weight loss plan based on your current routines </div>
-  </div>
-</a>
+    <a class="card" href="https://weight-app-zeta.vercel.app/">
+      <div class="title">Weight Loss Plan Generator</div>
+      <div class="desc">Generate simple personalised plans</div>
+    </a>
 
-<a href="/relax.html" class="tool-btn">
-  <span class="icon">🧘</span>
-  <div class="text">
-    <strong>Relaxation Check Tool</strong>
-    <div class="desc">Analyse your environment,for a summary of how to reduce overstimulation and relax there </div>
+    <a class="card" href="https://relax-app-blue.vercel.app/">
+      <div class="title">Relaxation Tool</div>
+      <div class="desc">Quick breathing and focus reset tool</div>
+    </a>
+
+    <a class="card" href="https://delete-social-app.vercel.app/">
+      <div class="title">Social Account Removal Guide</div>
+      <div class="desc">Step-by-step deletion instructions</div>
+    </a>
+
   </div>
-</a>
+
+</div>
 
 </body>
 </html>
